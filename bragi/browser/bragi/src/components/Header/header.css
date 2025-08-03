@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 19px 450px;
+    background-color: #141866;
+    margin: 15px 15px;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+    margin-right: 20px;
+}
+
+.title {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #FFFFFF; /* White color for contrast */
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .header {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        max-width: 80%;
+    }
+}

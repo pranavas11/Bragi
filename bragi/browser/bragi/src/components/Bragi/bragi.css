@@ -1,0 +1,50 @@
+.bragi-container {
+    width: 100%;
+    max-width: 1150px;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 9px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bragi-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.file-upload {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.chart-container {
+    width: 75%;
+    height: 500px;
+    margin-top: 11px;
+}
+
+audio {
+    margin-top: 25px;
+}
+
+input[type="file"] {
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #00d1b2;
+    color: #383381;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+input[type="file"]:hover {
+    background-color: #00a192;
+}
