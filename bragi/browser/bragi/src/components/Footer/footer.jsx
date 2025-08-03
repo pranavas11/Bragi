@@ -10,14 +10,14 @@ const Footer = () => {
                 <div className='contributor'>
                     <img src='/pranav.jpg' alt='Contributor 1' className='contributor-image' />
                     <p style={{color: 'lightgreen', fontWeight: 'bold'}}>Pranav Prabhu</p>
-                    <p className='role'>Frontend Developer</p>
+                    <p className='role'>Backend and ML Developer</p>
                     <a href="mailto:ppranavas01@gmail.com">ppranavas01@gmail.com</a>
                 </div>
 
                 <div className='contributor'>
                     <img src='/contributor2.png' alt='Contributor 2' className='contributor-image' />
                     <p style={{color: 'orange', fontWeight: 'bold'}}>Preetam D'Souza</p>
-                    <p className='role'>Backend Developer</p>
+                    <p className='role'>Frontend Developer</p>
                     <a href="mailto:preetamjdsouza@gmail.com">preetamjdsouza@gmail.com</a>
                 </div>
                 
